@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>UADTrig</title>
+    <link>https://raw.githubusercontent.com/winadithep/uadtrig-releases/main/appcast.xml</link>
+    <description>Stage MIDI control for Auto-Tune in UAD Console</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.2.0</title>
+      <pubDate>Mon, 24 Aug 2026 09:41:29 +0000</pubDate>
+      <sparkle:version>0.2.0</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>What changed</h3>
+        <p>Cue label on remote and mini panel; licence survives Wi-Fi address changes</p>
+      ]]></description>
+      <enclosure url="https://raw.githubusercontent.com/winadithep/uadtrig-releases/main/UADTrig-0.2.0.pkg"
+                 sparkle:installationType="package"
+                 type="application/octet-stream"
+                 sparkle:edSignature="8r6x5mWnpKZYfv2CCHX5Pc893CFujBG0A9yk7nzIbVd8b1dvKJzR2EQa9n1PIPccWRL4eu5thCyeI/ZEtg1gBQ==" length="62348118" />
+    </item>
+  </channel>
+</rss>
