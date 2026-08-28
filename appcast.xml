@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>UADTrig</title>
-    <link>https://raw.githubusercontent.com/winadithep04/uadtrig-releases/main/appcast.xml</link>
+    <title>TuneCue</title>
+    <link>https://raw.githubusercontent.com/winadithep04/tunecue-releases/main/appcast.xml</link>
     <description>Stage MIDI control for Auto-Tune in UAD Console</description>
     <language>en</language>
     <item>
@@ -15,7 +15,7 @@
         <h3>What changed</h3>
         <p>Cue names in Thai, faster cue response, universal binary</p>
       ]]></description>
-      <enclosure url="https://github.com/winadithep04/uadtrig-releases/releases/download/v0.2.0/UADTrig-0.2.0.pkg"
+      <enclosure url="https://github.com/winadithep04/tunecue-releases/releases/download/v0.2.0/TuneCue-0.2.0.pkg"
                  sparkle:installationType="package"
                  type="application/octet-stream"
                  sparkle:edSignature="lJa9rv8l18Z0kP1ms9cqesnugECGveljM0nVUtYdF4r6NuPxa5I6Nm3hv7HCDcUMYqsgkXFsEQrtTha+zeBvDw==" length="62349538" />

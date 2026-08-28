@@ -1,12 +1,12 @@
-# UADTrig releases
+# TuneCue releases
 
-Update feed for [UADTrig](https://github.com/) — stage MIDI control for
+Update feed for [TuneCue](https://github.com/) — stage MIDI control for
 Auto-Tune in UAD Console.
 
 | File | What it is |
 |---|---|
 | `appcast.xml` | The feed the app polls once a day |
-| `UADTrig-<version>.pkg` | The installer that feed points at |
+| `TuneCue-<version>.pkg` | The installer that feed points at |
 
 Both are produced by `./make_update.sh "release notes"` in the app repo.
 The `.pkg` is signed with an EdDSA key held in the developer's login keychain;
