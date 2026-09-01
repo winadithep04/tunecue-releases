@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>TuneCue</title>
-    <link>https://raw.githubusercontent.com/winadithep04/tunecue-releases/main/appcast.xml</link>
+    <link>https://tunecue.live/appcast.xml</link>
     <description>Stage MIDI control for Auto-Tune in UAD Console</description>
     <language>en</language>
     <item>
-      <title>Version 0.2.0</title>
-      <pubDate>Sat, 29 Aug 2026 05:35:56 +0000</pubDate>
-      <sparkle:version>0.2.0</sparkle:version>
-      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <title>Version 0.2.1</title>
+      <pubDate>Tue, 01 Sep 2026 15:24:58 +0000</pubDate>
+      <sparkle:version>0.2.1</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h3>What changed</h3>
-        <p>Renamed to TuneCue. Sign in to activate a Mac, move a licence between Macs, and a tablet remote that follows the network instead of an address.</p>
+        <p>Stage starts empty so you add the presets you actually use. The status line reads READY, with the detail on hover. BYPASS and the new MIDI hold button stop blinking. The mini panel keeps its caption when a cue is pressed. The phone remote carries the TuneCue lockup.</p>
       ]]></description>
-      <enclosure url="https://github.com/winadithep04/tunecue-releases/releases/download/v0.2.0/TuneCue-0.2.0.pkg"
+      <enclosure url="https://github.com/winadithep04/tunecue-releases/releases/download/v0.2.1/TuneCue-0.2.1.pkg"
                  sparkle:installationType="package"
                  type="application/octet-stream"
-                 sparkle:edSignature="UcY6PPztlAqcuWKvqV65970WXcN7nQWLy+VfyM4wlSQRvyWc81mKbd9MAUbRh7sYWfjp4rVvPP9IilSNwnDQBQ==" length="62412899" />
+                 sparkle:edSignature="S5gTkJYM4muHjl1AotHPhc5ndlkut86hIVxGtAsT4sBG1kxn5hEh96y75PXaudMjvAY/5A7ZLDew0HNvGhJ4AA==" length="62372301" />
     </item>
   </channel>
 </rss>
