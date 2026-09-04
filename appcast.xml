@@ -6,19 +6,21 @@
     <description>Stage MIDI control for Auto-Tune in UAD Console</description>
     <language>en</language>
     <item>
-      <title>Version 0.2.3</title>
-      <pubDate>Fri, 04 Sep 2026 06:42:03 +0000</pubDate>
-      <sparkle:version>0.2.3</sparkle:version>
-      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+      <title>Version 0.2.4</title>
+      <pubDate>Fri, 04 Sep 2026 13:31:57 +0000</pubDate>
+      <sparkle:version>0.2.4</sparkle:version>
+      <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h3>What changed</h3>
-        <p>The sign-in card stays put after signing out, and one trial per account.</p>
+        <p><b>"Console not reachable" now says which of the two things is wrong.</b> With UAD Console running and no Auto-Tune loaded in it, the app blamed Console. It now says the plugin is not loaded, and picks it up on its own when you load it.</p>
+        <p><b>No more flicker.</b> With no plugin loaded the window rebuilt itself once a second; the Cues page also stuttered every time it opened. Clearing or renaming a cue updates the tile straight away.</p>
+        <p><b>The version is beside the name</b>, where the byline used to be.</p>
       ]]></description>
-      <enclosure url="https://github.com/winadithep04/tunecue-releases/releases/download/v0.2.3/TuneCue-0.2.3.pkg"
+      <enclosure url="https://github.com/winadithep04/tunecue-releases/releases/download/v0.2.4/TuneCue-0.2.4.pkg"
                  sparkle:installationType="package"
                  type="application/octet-stream"
-                 sparkle:edSignature="x1ej9rtYUEfB9dmmFpdxlCQT2t1r2pKHqLuhbfgCzRun1b6ytOmD5u/7eMvizaAUkSg86yZAY3eRJwb4eT40DQ==" length="47565117" />
+                 sparkle:edSignature="ffblFqJ5F2g2yb0RdAYk6Ovaf8CCvkdJaEBcvAxFPX03ZywJv56r/+WY/LLH6YcE1fr/XCvRIAVuMHgc5XFQAQ==" length="47565621" />
     </item>
   </channel>
 </rss>
