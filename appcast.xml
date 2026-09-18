@@ -6,21 +6,19 @@
     <description>Stage MIDI control for Auto-Tune in UAD Console</description>
     <language>en</language>
     <item>
-      <title>Version 0.2.4</title>
-      <pubDate>Fri, 04 Sep 2026 13:31:57 +0000</pubDate>
-      <sparkle:version>0.2.4</sparkle:version>
-      <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+      <title>Version 0.3.0</title>
+      <pubDate>Fri, 18 Sep 2026 13:38:46 +0000</pubDate>
+      <sparkle:version>0.3.0</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h3>What changed</h3>
-        <p><b>"Console not reachable" now says which of the two things is wrong.</b> With UAD Console running and no Auto-Tune loaded in it, the app blamed Console. It now says the plugin is not loaded, and picks it up on its own when you load it.</p>
-        <p><b>No more flicker.</b> With no plugin loaded the window rebuilt itself once a second; the Cues page also stuttered every time it opened. Clearing or renaming a cue updates the tile straight away.</p>
-        <p><b>The version is beside the name</b>, where the byline used to be.</p>
+        <p><b>Several rigs, and a rig you can hand to somebody.</b> Keep a Setup per band or per venue and switch between them, or save one as a <code>.tunecue</code> file you can open, revert, and send to another Mac. An imported rig never takes that Mac's click calibration or MIDI port on trust - it says what you have to set up again before you play.</p><p><b>A Stage tile can hold a sound, not just a preset.</b> Press Capture Current and the tile keeps the preset, every knob you have moved since loading it, and the bypass state - the thing you spent the soundcheck on and cannot save as a preset without leaving Console. Tiles can be renamed now, both kinds, and the name is only a label: what the tile plays and any MIDI mapped to it stay as they are.</p><p><b>MIDI Learn no longer takes your DAW's port away.</b> Saving a mapping restarted the daemon, which destroyed the virtual MIDI port and made a new one - the name came back, the connection did not, and you had to pick the port again in your DAW. Learn can also be cancelled now instead of waiting out the timeout.</p><p><b>Capturing a cue works again.</b> With the daemon running - which is always - Cue capture failed silently: the dialog closed, the page redrew, and nothing was saved. It saves, and when Console cannot be read it says so instead of pretending.</p>
       ]]></description>
-      <enclosure url="https://github.com/winadithep04/tunecue-releases/releases/download/v0.2.4/TuneCue-0.2.4.pkg"
+      <enclosure url="https://github.com/winadithep04/tunecue-releases/releases/download/v0.3.0/TuneCue-0.3.0.pkg"
                  sparkle:installationType="package"
                  type="application/octet-stream"
-                 sparkle:edSignature="ffblFqJ5F2g2yb0RdAYk6Ovaf8CCvkdJaEBcvAxFPX03ZywJv56r/+WY/LLH6YcE1fr/XCvRIAVuMHgc5XFQAQ==" length="47565621" />
+                 sparkle:edSignature="uS8H1C6xgt0SOJuUfx5SMLzqzwYLE12WLe4EJHjjM1v0grDWyvaB5BKYoaniajM44RDUxKGo2pC4ZN+1T1edCQ==" length="47882509" />
     </item>
   </channel>
 </rss>
