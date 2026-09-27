@@ -6,19 +6,19 @@
     <description>Stage MIDI control for Auto-Tune in UAD Console</description>
     <language>en</language>
     <item>
-      <title>Version 0.3.0</title>
-      <pubDate>Fri, 18 Sep 2026 13:38:46 +0000</pubDate>
-      <sparkle:version>0.3.0</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <title>Version 0.3.1</title>
+      <pubDate>Fri, 25 Sep 2026 12:04:14 +0000</pubDate>
+      <sparkle:version>0.3.1</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h3>What changed</h3>
-        <p><b>Several rigs, and a rig you can hand to somebody.</b> Keep a Setup per band or per venue and switch between them, or save one as a <code>.tunecue</code> file you can open, revert, and send to another Mac. An imported rig never takes that Mac's click calibration or MIDI port on trust - it says what you have to set up again before you play.</p><p><b>A Stage tile can hold a sound, not just a preset.</b> Press Capture Current and the tile keeps the preset, every knob you have moved since loading it, and the bypass state - the thing you spent the soundcheck on and cannot save as a preset without leaving Console. Tiles can be renamed now, both kinds, and the name is only a label: what the tile plays and any MIDI mapped to it stay as they are.</p><p><b>MIDI Learn no longer takes your DAW's port away.</b> Saving a mapping restarted the daemon, which destroyed the virtual MIDI port and made a new one - the name came back, the connection did not, and you had to pick the port again in your DAW. Learn can also be cancelled now instead of waiting out the timeout.</p><p><b>Capturing a cue works again.</b> With the daemon running - which is always - Cue capture failed silently: the dialog closed, the page redrew, and nothing was saved. It saves, and when Console cannot be read it says so instead of pretending.</p>
+        <p>The iPad remote now notices when the Mac has gone and says so on one STATUS button, instead of staying green; it reconnects by itself once the Remote's address can be reached again. Switching setlist no longer restarts the engine. Stage shows when a change is pending, confirmed, or unsuccessful, and a tile lights when Console confirms the change. A new header puts the Setup's name and recent files in one place, with Settings behind the gear. On Mappings and Cues the ↻ turns on its own and the controls beside it stay put. Fixed an issue after MIDI Learn that left app/Remote and MIDI commands using separate engine queues. Save refuses a rig that would not open again. Backups get names of their own and are kept per kind and per Setup. New log entries carry the time and no longer include the Remote PIN; support packages redact sensitive information.</p>
       ]]></description>
-      <enclosure url="https://github.com/winadithep04/tunecue-releases/releases/download/v0.3.0/TuneCue-0.3.0.pkg"
+      <enclosure url="https://github.com/winadithep04/tunecue-releases/releases/download/v0.3.1/TuneCue-0.3.1.pkg"
                  sparkle:installationType="package"
                  type="application/octet-stream"
-                 sparkle:edSignature="uS8H1C6xgt0SOJuUfx5SMLzqzwYLE12WLe4EJHjjM1v0grDWyvaB5BKYoaniajM44RDUxKGo2pC4ZN+1T1edCQ==" length="47882509" />
+                 sparkle:edSignature="wKLEz2/RdGWsoOMyMvZ3A3rcNvfHdueHExhhSAlfMrJVygywPTu/PtjywFtkoZ0AETpmBaqtGWJ5BbpRjbjNDQ==" length="48017496" />
     </item>
   </channel>
 </rss>
